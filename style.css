@@ -1,0 +1,26 @@
+/* Meilinguo Audio — Meilu palette */
+:root{--orange:#f4621f;--cream:#fff8f0;--maroon:#7d0f1c;--red:#b4101f;--gold:#ffc61a;--pink:#f2707a;--black:#140505;--brown:#3b1209}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',sans-serif;background:var(--cream);color:var(--black);line-height:1.55}
+a{color:var(--red)}
+header{background:var(--red);color:var(--cream);padding:28px 20px 22px;text-align:center}
+header h1{font-family:'Baloo 2',system-ui,sans-serif;margin:0;font-size:1.9rem;line-height:1.2}
+header p{margin:8px auto 0;max-width:560px;opacity:.95}
+main{max-width:720px;margin:0 auto;padding:20px 16px 40px}
+.note{background:#fff;border:2px solid var(--gold);border-radius:14px;padding:14px 16px;margin:18px 0}
+.note b{color:var(--maroon)}
+.day-list{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.day-list a{display:flex;justify-content:space-between;align-items:center;gap:12px;background:#fff;border:2px solid var(--red);border-radius:14px;padding:14px 16px;text-decoration:none;color:var(--black);font-weight:700;min-height:56px}
+.day-list a:hover{background:#fff0e6}
+.day-list a span.small{font-weight:400;color:#6b4a3a;font-size:.9rem;text-align:right}
+.word{background:#fff;border:2px solid #ead9c8;border-radius:16px;padding:16px;margin:14px 0}
+.word .hanzi{font-family:'Noto Sans SC',sans-serif;font-weight:900;font-size:2.6rem;line-height:1.1;color:var(--maroon)}
+.word .pinyin{font-size:1.15rem;font-weight:700;color:var(--red);margin-top:2px}
+.word .arti{font-size:1rem;color:#5b3a2a}
+.word audio{width:100%;margin-top:12px;min-height:44px}
+.nav{display:flex;justify-content:space-between;gap:10px;margin:20px 0;flex-wrap:wrap}
+.nav a{background:var(--red);color:#fff;text-decoration:none;font-weight:700;border-radius:999px;padding:12px 18px;min-height:48px;display:inline-flex;align-items:center}
+.nav a.ghost{background:#fff;color:var(--red);border:2px solid var(--red)}
+footer{text-align:center;color:#6b4a3a;padding:24px 16px 32px;font-size:.95rem}
+footer a{color:var(--red);font-weight:700}
+@media (max-width:480px){header h1{font-size:1.6rem}.word .hanzi{font-size:2.2rem}}
